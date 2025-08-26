@@ -4,7 +4,9 @@
 *  Control gearmotor speeds with feedback control.
 *
 *  Set the correct pin numbers in motor_control.h depending on your specific
-*  configuration.
+*  configuration. Change PID_INT and PID_REP_INT to change the feedback loop
+*  update interval and the reporting interval (for printing data to the
+*  serial monitor), respectively.
 *
 *  @author Matthew Ford
 */
